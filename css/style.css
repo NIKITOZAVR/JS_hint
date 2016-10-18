@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'segoe ui light';
+}
+.wrapper, .wrapperForm {
+  margin-top: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 5px;
+  overflow: auto;
+  height: 300px;
+  background: #dbdbdb;
+}
+.wrapperForm {
+  height: 150px;
+  padding: 20px;
+  overflow: hidden;
+}
+ul {
+  border: 1px solid black;
+  border-radius: 7px;
+  background:#b6b6b6;
+}
+li {
+  display: inline-block;
+}
+a {
+  display: block;
+  height: 30px;
+  width: 130px;
+  margin-top: 5px;
+  margin-left: 5px;
+  border: 1px solid black;
+  border-bottom: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  line-height: 30px;
+  text-align: center;
+  color: black;
+  background: #d7d7d7;
+  font-size: 15px;
+  font-family: sans-serif;
+
+}
+a.selected {
+  background: #aa7b3d;
+}
+a.selected:hover{
+  background: #a86000;
+
+}
+
+a:hover {
+  background: #c8c8c8;
+}
+p {
+  margin: 20px;
+  text-indent: 20px;
+}
+.tab{
+  display: none;
+}
+.text {
+  display: none;
+}
+div.selected {
+  display: block;
+}
+
+/*FORM*/
+form div {
+  margin-bottom: 10px;
+}
+label {
+  padding-right: 10px;
+}
+form div:last-child label {
+  padding-right: 20px;
+}
+span {
+  display: none;
+}
